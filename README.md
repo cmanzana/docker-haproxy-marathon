@@ -1,4 +1,4 @@
-docker-haproxy-marathon
+haproxy-marathon
 =======================
 
 HAProxy image that provides discovery of marathon launched services in a mesos cluster

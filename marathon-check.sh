@@ -46,6 +46,7 @@ listen stats
   stats enable
   stats auth admin:admin
 EOF
+}
 
 function apps {
   (until curl -sSfLk -m 10 -H 'Accept: text/plain' "${1%/}"/v2/tasks; do [ $# -lt 2 ] && return 1 || shift; done) | while read -r txt

@@ -13,6 +13,7 @@ Using docker:
 
 Using Marathon REST API:
 
+```json
 {
   "container": {
     "type": "DOCKER",
@@ -30,6 +31,7 @@ Using Marathon REST API:
   "mem": 512,
   "constraints": [["hostname", "UNIQUE"]]
 }
+```
 
 Why would you want to use this container?
 -----------------------------------------
